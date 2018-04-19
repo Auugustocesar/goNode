@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<title>DESAFIO 01</title>
+    <style media="screen" type="text/css">
+      .main {
+        display: flex;
+        justify-content: center;
+        margin-top:5%;
+      }
+      .input {
+        width: 100%;
+        height: 25px;
+        margin: 10px 0;
+      }
+      .button {
+        background-color: cornflowerblue;
+        border-color: transparent;
+        border-radius: 5px;
+        height: 30px;
+        width: 100%;
+        font-weight: bold;
+        color: #FFF;
+        margin: 10px 0;
+        cursor: pointer;
+      }
+    </style>
+	</head>
+	<body class="main">
+		<form action='/check' method='POST'>
+			<input class='input' type='text' name='nome' placeholder='Nome' />
+			<input class='input' type='date' name='dataNascimento' placeholder='data de nascimento' />
+			<button class='button' type='submit'>Enviar</button>
+		</form>
+	</body>
+
+</html>
